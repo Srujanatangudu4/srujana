@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>WELCOME!</title>
+</head>
+<body>
+    <h1 style="background-color:Beige;>WELCOME TO OUR ORGANISATION</h1>
+    <h1 >WELCOME TO OUR ORGANISATION</h1>
+    <div class="header">
+      <a href="#default" class="logo">CompanyLogo</a>
+      <div class="header-right">
+        <a class="active" href="#home">Home</a>
+        <a href="#contact">Contact</a>
+        <a href="#about">About</a>
+      </div>
+    </div>
+    
+  <div id="btn-group">
+    <button id="myButton"> Mission</button>
+    <p id="myPara"></p>
+    <button id="myButton1"> Programs</button>
+    <p id="myPara"></p>
+    <button id="myButton2"> Events</button>
+    <p id="myPara"></p>
+  </div>
+  
+  
+  <script>
+    
+    document.getElementById("myButton1").addEventListener("click", function() {
+      document.getElementById("myPara").innerText = "1.Microfinance\n2.Community Mangement\n3.Filing Societal need\n4.Filing an Educational need\n5.Promoting Human Rights and Social Justice";
+    });
+  
+     document.getElementById("myButton2").addEventListener("click", function() {
+       document.getElementById("myPara").innerText = "1.Workshops\n2.Street Parties\n3.Scavenger Hunts\n4.Treasure Hunts\n5.Trivia Nights\n6.Mic Nights\n7.Fairs\n8.Concerts\n9.Art Exhibition\n10.Gala Dinner";
+     });
+   
+    document.getElementById("myButton").addEventListener("click", function() {
+      document.getElementById("myPara").innerText = "We connect people around the world to empower them to create lasting change in their own lives and communities.";
+    });
+  </script>
+  <img src="https://i0.wp.com/genebrancho.com/wp-content/uploads/2022/03/volunteerbeaufort.jpg?resize=1140%2C568&ssl=1" width="500" height="300">
+
+</body>
+</html>
